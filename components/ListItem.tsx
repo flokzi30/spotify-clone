@@ -48,6 +48,7 @@ const ListItem: React.FC<ListItemProps> = ({
           src={image}
           fill
           alt="Image"
+          priority
         />
       </div>
       <p className="font-medium truncate py-5">
