@@ -1,6 +1,5 @@
 import { Song } from "@/types";
 import { createServerComponentClient } from "@supabase/auth-helpers-nextjs";
-import { get } from "http";
 import { cookies } from "next/headers";
 import getSongs from "./getSongs";
 
