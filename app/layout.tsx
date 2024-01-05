@@ -24,7 +24,6 @@ export default async function RootLayout({
 }) {
 
   const userSongs = await getSongsByUserID();
-
   return (
     <html lang="en">
       <body className={font.className}>

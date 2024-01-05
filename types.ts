@@ -27,7 +27,7 @@ export interface Product {
     active?: boolean;
     name?: string;
     description?: string;
-    images?: string;
+    image?: string;
     metadata?: Stripe.Metadata;
 }
 
@@ -36,7 +36,7 @@ export interface Price{
     id: string;
     product_id: string;
     active?: boolean;
-    description: string;
+    description?: string;
     unit_amount?: number;
     currency?: string;
     type?: Stripe.Price.Type;

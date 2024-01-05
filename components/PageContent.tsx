@@ -16,7 +16,7 @@ const PageContent: React.FC <PageContentProps> = ({
     if(songs.length === 0) {
         return (
             <div>
-                No songs ava
+                No songs availabe to play
             </div>
         )
     }
